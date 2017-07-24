@@ -41,9 +41,9 @@ STEP4
 =====
 STEP5
 =====
-+ Clone your repo from github.
-+ After you copy your repo address from the website of github, it may look like:
-+ "git@github.com:yourname/visit_github_via_sshkey.git"
-+ Replace "git@github.com" with "github", for example, command:
-+ "git clone github:yourname/visit_github_via_sshkey.git"
-+ will successfully clone your repo to local machine.
++ | Clone your repo from github.
+  | After you copy your repo address from the website of github, it may look like:
+  | "git@github.com:yourname/visit_github_via_sshkey.git"
+  | Replace "git@github.com" with "github", for example, command:
+  | "git clone github:yourname/visit_github_via_sshkey.git"
+  | will successfully clone your repo to local machine.
