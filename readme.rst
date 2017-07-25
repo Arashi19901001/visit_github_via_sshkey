@@ -20,6 +20,7 @@ STEP3
 
  .. code-block:: config 
   :linenos:
+
   host github
       HostName github.com
       User git
