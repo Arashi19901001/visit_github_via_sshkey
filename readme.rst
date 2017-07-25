@@ -18,24 +18,25 @@ STEP3
 =====
 + create a file named "config" in '~/.ssh', content may look like below:
 
- .. code-block:: config 
-  :linenos:
+ .. code-block:: text
 
-  host github
-      HostName github.com
-      User git
-      IdentityFile /path/to/your/id_rsa
+     host github
+         HostName github.com
+         User git
+         IdentityFile /path/to/your/id_rsa
 
 
 =====
+
 STEP4
 =====
+
 + Test your connect using 'ssh github', if you see:
 
-  .. code-block:: config
+  .. code-block:: text
 
-     Hi yourname! You've successfully authenticated, but GitHub does not provideshell access.
-     Connection to github.com closed.
+      Hi yourname! You've successfully authenticated, but GitHub does not provideshell access.
+      Connection to github.com closed.
 
   Then connection is successfully made.
 + Some tutorial says commend "ssh -T git@github.com" may also do the job. Note that if you have renamed your 'id_rsa', you may fail to connect to github.
